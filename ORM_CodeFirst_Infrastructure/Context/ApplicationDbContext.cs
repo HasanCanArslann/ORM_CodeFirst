@@ -22,7 +22,7 @@ namespace ORM_CodeFirst_Infrastructure.Context
             // Kullanılan Database'e göre connection stringlere www.connectionstrings.com adresinden ulaşabilir, Server adı ve Database adını güncelleyerek kullanabilirsiniz.
 
 
-            optionsBuilder.UseSqlServer(Your Connection String");
+            optionsBuilder.UseSqlServer("Your Connection String");
             base.OnConfiguring(optionsBuilder);
         }
 
